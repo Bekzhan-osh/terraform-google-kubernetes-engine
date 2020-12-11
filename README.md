@@ -1,7 +1,7 @@
 # terraform-iaac
-### Creates GKE Cluster
+## Creates GKE Cluster
 
-### Copy paste the below code 
+## Copy paste the below code 
 ```
 module "cluster" {
     source                      = "Bekzhan-osh/kubernetes-engine/google"
@@ -15,7 +15,7 @@ module "cluster" {
 ```
 
 
-### Run 
+## Run 
 ``` 
 terraform init 
 terraform apply 
