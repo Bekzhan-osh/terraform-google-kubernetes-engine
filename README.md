@@ -4,7 +4,7 @@
 ### Copy paste the below code 
 ```
 module "cluster" {
-    source                      = "../"
+    source                      = "Bekzhan-osh/kubernetes-engine/google"
     project                     = var.project_id
     cluster_name                = "my-gke-cluster"
     location                    = "us-central1"
